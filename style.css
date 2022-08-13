@@ -449,4 +449,30 @@ nav ul .nav-btn:focus{
     .project-container .project-card{
         width: auto;
     }
+    .header .header-content h1{
+        font-size: 40px;
+    }
+    .aim{
+        font-size: 17px;
+    }
+    .moto{
+        word-break: break-all;
+        /* border: 1px solid white; */
+        width: 90vw;
+    }
+    .container-mid .col-1 .heading{
+        width: 100%;
+    }
+    .container-mid .col-2 .heading{
+        text-align: center;
+    }
+    .container-mid .col-2{
+        width: 95vw;
+    }
+    .header-text{
+        font-size: 40px;
+    }
+    .project-cont-heading{
+        font-size: 35px;
+    }
 }
