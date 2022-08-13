@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Poppins:wght@300;400;500;600;700;800&family=Red+Hat+Display:wght@400;500;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+::selection{
+    background-color: #ff6758;
+}
+
+.container-top{
+    background-color: #333347;
+    color:white;
+    padding: 20px 0;
+    height: 95vh;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin:auto;
+    margin-bottom: 50px;
+    align-items: center;
+    height: auto;
+}
+
+.logo-link{
+    color: black;
+    text-decoration: none;
+    color: white;
+}
+.logo-link:hover{
+    color: rgb(225 225 225);
+}
+
+.nav-logo-heading{
+    font-family: 'Dancing Script', cursive;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul  .nav-links{
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    margin: auto 15px;
+    cursor: pointer;
+    color: black;
+    transition: ease-in-out .2s;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+nav ul .nav-links:hover{
+    color: rgb(225, 225, 225);
+}
+nav ul .nav-btn{
+    background-color: #ff6758;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+    border:none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: ease-in-out .2s
+}
+nav ul .nav-btn:hover{
+    background-color: #c04722;
+}
+nav ul .nav-btn:focus{
+    box-shadow:  0 0 0 0.3rem #ff623244;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    margin: 20vh auto;
+}
+
+.header .header-content{
+    margin-left: 50px;
+}
+
+.header .header-content h3{
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.header .header-content h1{
+    font-size: 60px;
+}
+
+.profile-photo{
+    width: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.aim{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.moto{
+    width: 650px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    color: rgb(235, 235, 235);
+}
+
+.work-btn{
+    background-color: #ff6758;
+    color: white;
+    border:2px solid #ff6758;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Red Hat Display';
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+}
+
+.work-btn:hover{
+    background-color: #c04722;
+}
+
+.work-btn:focus{
+    box-shadow:  0 0 0 0.3rem #ff623244;
+}
+
+.start-tour-btn{
+    background-color: transparent;
+    /* color: #ff6758; */
+    color: white;
+    border:2px solid #ff6758;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Red Hat Display';
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.start-tour-btn:hover{
+    /* color: white; */
+    /* border: 2px solid white; */
+    background-image: url(./brush1.png);
+    background-position: 550px;
+    
+}
+.start-tour-btn:focus{
+    border: 2px solid white;
+    color: white;
+    box-shadow:  0 0 0 0.3rem #ffffff44;
+}
+
+.container-mid{
+    background-color: #2d2d3e;
+    color: white;
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.header-text{
+    font-family: 'Poppins';
+    background-color: #2d2d3e;
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.container-mid .col-1, .col-2{
+    margin: auto 50px;
+}
+
+.container-mid .col-1{
+    width: 38%;
+    padding: 21px;
+    margin: 50px 10px;
+}
+
+.container-mid .col-1 .heading{
+    font-size: 40px;
+    width: 60%;
+}
+
+.container-mid .col-1 .lets-talk{
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.container-mid .email{
+    color: #ff6758;
+    font-size: 30px;
+    margin: 15px auto;
+}
+
+.container-mid .socials{
+    font-size: 23px;
+    color: white;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.container-mid .link{
+    color: #ffc151;
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.container-mid .link:hover{
+    text-decoration: underline;
+}
+
+.container-mid .col-2{
+    width: 35%;
+}
+
+.container-mid .col-2  .heading{
+    font-size: 40px;
+}
+
+.container-mid .col-2 .langs .lang-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.container-mid .col-2 .langs .lang-group .lang-name{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.container-mid .col-2 .langs .lang-group .progress-bar-border{
+    border: 1px solid #ffc151;
+    border-radius: 50px;
+    height: 23px;
+    width: 80%;
+}
+
+.project-container{
+    background-color: #282837;
+    color: white;
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.project-cont-heading{
+    background-color: #282837;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 50px;
+   
+}
+
+.project-container .project-card {
+    width: 350px;
+    height: auto;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    margin: 10px 20px;
+    position: relative;
+}
+
+.project-container .project-card .card-header .card-image{
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+.project-container .project-card .card-header .responsive{
+    color: rgba(17, 46, 149, 0.841);
+    background-color: rgba(227, 255, 228, 0.841);
+    display: inline-block;
+    padding: 5px 15px;
+    position: absolute;
+    border-radius: 15px;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.project-container .project-card .card-details{
+    padding: 0 10px;
+}
+
+.project-container .project-card .card-details h2{
+    font-size: 30px;
+    margin: 10px 0 5px 0;
+    color: rgb(32, 32, 32);
+    text-align: center;
+}
+
+.project-container .project-card .card-details p{
+    font-size: 18px;
+    margin: 5px 0 10px 0;
+}
+
+.project-container .project-card .card-details .buttons-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.project-container .project-card .card-details .btn{
+   text-decoration: none;
+  
+   font-weight: 500;
+   border-radius: 6px;
+   font-size: 20px;
+   width: 100%;
+   text-align: center;
+   margin: 10px 5px;
+   padding: 10px 0;
+}
+
+.project-container .project-card .card-details .purple-btn{
+    background-color: rgb(212, 214, 255);
+    color: rgb(101, 81, 192);
+    transition: ease .2s;
+}
+
+.project-container .project-card .card-details .purple-btn:hover{
+    background-color: rgb(201, 203, 244);
+}
+
+.project-container .project-card .card-details .red-btn{
+    background-color: rgb(255, 212, 212);
+    color: rgb(190, 87, 87);
+}
+
+.project-container .project-card .card-details .red-btn:hover{
+    background-color: rgb(240, 200, 200);
+}
+
+.project-container .project-card .card-details .visit-btn:hover{
+    background-color: #bec9ed;
+}
+
+.project-container .project-card .card-details .git-btn{
+    background-color: #ffcaca;
+    color: rgb(125, 5, 5);
+    border: none;
+    padding: 8px 20px;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.project-container .project-card .card-details .git-btn:hover{
+    background-color: #eebdbd;
+}
+
+@media (max-width: 992px){
+    .header{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .moto{
+        width: 550px;
+    }
+
+    .header .header-content{
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .container-mid .col-1 .heading{
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .container-mid .col-2 .heading{
+        font-size: 30px;
+    }
+    .container-mid .col-2 .langs .lang-group .lang-name{
+        font-size: 22px;
+    }
+    .container-mid .email{
+        font-size: 22px;
+    }
+    .container-mid .socials{
+        font-size: 20px;
+    }
+
+    .project-container .project-card{
+        width: 300px;
+    }
+}
+
+@media (max-width: 578px){
+    .container-mid{
+        display: block;
+    }
+
+    .container-mid .col-1{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .container-mid .col-1 .heading{
+        width: 55%;
+        margin: auto;
+    }
+    .container-mid .col-2{
+       margin: auto;
+       /* border: 1px solid white; */
+       width: 65%;
+    }
+    .container-mid .col-2 .langs .lang-group {
+        margin: 0;
+        margin-top: 20px;
+    }
+    .langs{
+        padding: 30px;
+    }
+
+    .project-container .project-card{
+        width: auto;
+    }
+}
