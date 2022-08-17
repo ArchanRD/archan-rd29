@@ -1,6 +1,4 @@
-    function delay () {
-        setTimeout( function() { window.location = "https://archan-rd29.vercel.app/" }, 500 );
-    }
+
 //---------------------------------------
 let menu = document.querySelector(".menu");
 let menuItem = document.querySelector(".nav-item");
