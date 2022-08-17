@@ -33,10 +33,21 @@ body{
     opacity: 1;
     background-color: #fff;
     z-index: 99;
+    animation-name: fadeOut;
+    animation-duration: .3s;
   }
   
   #loading-image {
     z-index: 100;
+  }
+
+  @keyframes fadeOut {
+    100%{
+        opacity: 1;
+    }
+    0%{
+        opacity: 0;
+    }
   }
 /* /---------------------------------------------------------/ */
 .menu{
