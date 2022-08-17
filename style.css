@@ -7,16 +7,7 @@
     scroll-behavior: smooth;
 }
 /* /-------------------page loader---------------------/ */
-html, body {
-    height: 100%;
-  }
-  
-  body {
-    align-items: center;
-    background-color: #1D1F20;
-    display: flex;
-    justify-content: center;
-  }
+
   
   .loader  {
     animation: rotate 1s infinite;  
