@@ -20,3 +20,10 @@ menuItem.addEventListener("click", () =>{
     cross.style.display = "none";
     menu_btn.style.display = "block";
 });
+
+//page loader
+function loadFun(){
+    let load = document.querySelector(".socket");
+
+    load.style.display = "none";
+}
