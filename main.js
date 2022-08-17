@@ -1,8 +1,7 @@
 //page loader
-function loadFun(){
-    let load = document.querySelector(".loader-cont");
-
-    load.style.display = "none";
+function loadfn(){
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("body").style.display = "block";
 }
 //---------------------------------------
 let menu = document.querySelector(".menu");
