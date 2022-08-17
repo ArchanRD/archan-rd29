@@ -23,7 +23,7 @@ menuItem.addEventListener("click", () =>{
 
 //page loader
 function loadFun(){
-    let load = document.querySelector(".socket");
+    let load = document.querySelector(".loader");
 
     load.style.display = "none";
 }
