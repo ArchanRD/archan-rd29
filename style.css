@@ -35,6 +35,7 @@ body{
     z-index: 99;
     animation-name: fadeOut;
     animation-duration: .3s;
+    transition: all 0.5 ease;
   }
   
   #loading-image {
