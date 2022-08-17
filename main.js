@@ -1,7 +1,6 @@
 //page loader
 function loadfn(){
     document.getElementById("loading").style.display = "none";
-    document.getElementById("body").style.display = "block";
 }
 //---------------------------------------
 let menu = document.querySelector(".menu");

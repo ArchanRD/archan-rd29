@@ -6,10 +6,6 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
-#body{
-    display: none;
-}
 /* /-------------------page loader---------------------/ */
 #loading {
     position: fixed;
