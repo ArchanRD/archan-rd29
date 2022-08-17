@@ -1,3 +1,8 @@
+    function delay () {
+        setTimeout( function() { window.location = "https://archan-rd29.vercel.app/" }, 500 );
+    }
+    delay();
+//---------------------------------------
 let menu = document.querySelector(".menu");
 let menuItem = document.querySelector(".nav-item");
 let cross = document.getElementById("cross-btn");
@@ -23,7 +28,7 @@ menuItem.addEventListener("click", () =>{
 
 //page loader
 function loadFun(){
-    let load = document.querySelector(".loader");
+    let load = document.querySelector(".loader-mn");
 
     load.style.display = "none";
 }
