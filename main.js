@@ -1,4 +1,9 @@
+//page loader
+function loadFun(){
+    let load = document.querySelector(".loader-cont");
 
+    load.style.display = "none";
+}
 //---------------------------------------
 let menu = document.querySelector(".menu");
 let menuItem = document.querySelector(".nav-item");
@@ -23,9 +28,3 @@ menuItem.addEventListener("click", () =>{
     menu_btn.style.display = "block";
 });
 
-//page loader
-function loadFun(){
-    let load = document.querySelector(".loader-mn");
-
-    load.style.display = "none";
-}
