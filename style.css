@@ -10,6 +10,10 @@
     display: none;
 }
 
+.cross{
+    display: none;
+}
+
 ::selection{
     background-color: #ff6758;
 }
@@ -457,6 +461,12 @@ nav ul .nav-btn:focus{
 
     .menu{
         display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .cross{
+        display: noen;
         font-size: 30px;
         cursor: pointer;
     }
